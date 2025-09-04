@@ -24,17 +24,19 @@ def generate_report():
         <h2>Vulnerability Scan Report</h2>
         <table>
             <tr>
-                <th>ID</th>
                 <th>Scan ID</th>
                 <th>Target</th>
+                <th>Started</th>
+                <th>Finished</th>
                 <th>Alert</th>
                 <th>Risk</th>
-                <th>Timestamp</th>
+                <th>Alert Timestamp</th>
             </tr>
     """
 
     for row in results:
-        html_content += f"<tr><td>{row[0]}</td><td>{row[1]}</td><td>{row[2]}</td><td>{row[3]}</td><td>{row[4]}</td><td>{row[5]}</td></tr>"
+        scan_id, target, started, finished, alert, risk, created_at = row
+        html_content += f"<tr><td>{scan_id}</td><td>{target}</td><td>{started}</td><td>{finished}</td><td>{alert or ''}</td><td>{risk or ''}</td><td>{created_at or ''}</td></tr>"
 
     html_content += """
         </table>
