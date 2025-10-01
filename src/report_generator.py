@@ -1,7 +1,9 @@
 import os
 from src import db
 
-REPORTS_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "reports")
+# Fix path so reports always go to intel-vulscan/reports
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+REPORTS_DIR = os.path.join(PROJECT_ROOT, "reports")
 
 def generate_report():
     results = db.fetch_all_results()
