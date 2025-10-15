@@ -1,5 +1,249 @@
 [
     {
+        "scan_id": "b856b441-97c1-49eb-ab47-a745fb4abe1e",
+        "target": "http://dvwa:80",
+        "started_at": "2025-10-09T22:14:59.334165",
+        "finished_at": "2025-10-09T22:15:39.648180",
+        "status": "completed",
+        "alerts": [
+            {
+                "alert_name": "Content Security Policy (CSP) Header Not Set",
+                "risk": "Medium",
+                "created_at": "2025-10-09 16:45:39"
+            },
+            {
+                "alert_name": "Cookie No HttpOnly Flag",
+                "risk": "Low",
+                "created_at": "2025-10-09 16:45:39"
+            },
+            {
+                "alert_name": "Cookie No HttpOnly Flag",
+                "risk": "Low",
+                "created_at": "2025-10-09 16:45:39"
+            },
+            {
+                "alert_name": "Cookie No HttpOnly Flag",
+                "risk": "Low",
+                "created_at": "2025-10-09 16:45:39"
+            },
+            {
+                "alert_name": "Cookie No HttpOnly Flag",
+                "risk": "Low",
+                "created_at": "2025-10-09 16:45:39"
+            },
+            {
+                "alert_name": "Cookie No HttpOnly Flag",
+                "risk": "Low",
+                "created_at": "2025-10-09 16:45:39"
+            },
+            {
+                "alert_name": "Cookie No HttpOnly Flag",
+                "risk": "Low",
+                "created_at": "2025-10-09 16:45:39"
+            },
+            {
+                "alert_name": "Cookie without SameSite Attribute",
+                "risk": "Low",
+                "created_at": "2025-10-09 16:45:39"
+            },
+            {
+                "alert_name": "Cookie without SameSite Attribute",
+                "risk": "Low",
+                "created_at": "2025-10-09 16:45:39"
+            },
+            {
+                "alert_name": "Cookie without SameSite Attribute",
+                "risk": "Low",
+                "created_at": "2025-10-09 16:45:39"
+            },
+            {
+                "alert_name": "Cookie without SameSite Attribute",
+                "risk": "Low",
+                "created_at": "2025-10-09 16:45:39"
+            },
+            {
+                "alert_name": "Cookie without SameSite Attribute",
+                "risk": "Low",
+                "created_at": "2025-10-09 16:45:39"
+            },
+            {
+                "alert_name": "Cookie without SameSite Attribute",
+                "risk": "Low",
+                "created_at": "2025-10-09 16:45:39"
+            },
+            {
+                "alert_name": "Missing Anti-clickjacking Header",
+                "risk": "Medium",
+                "created_at": "2025-10-09 16:45:39"
+            },
+            {
+                "alert_name": "Server Leaks Version Information via \"Server\" HTTP Response Header Field",
+                "risk": "Low",
+                "created_at": "2025-10-09 16:45:39"
+            },
+            {
+                "alert_name": "Server Leaks Version Information via \"Server\" HTTP Response Header Field",
+                "risk": "Low",
+                "created_at": "2025-10-09 16:45:39"
+            },
+            {
+                "alert_name": "Server Leaks Version Information via \"Server\" HTTP Response Header Field",
+                "risk": "Low",
+                "created_at": "2025-10-09 16:45:39"
+            },
+            {
+                "alert_name": "Session Management Response Identified",
+                "risk": "Informational",
+                "created_at": "2025-10-09 16:45:39"
+            },
+            {
+                "alert_name": "Session Management Response Identified",
+                "risk": "Informational",
+                "created_at": "2025-10-09 16:45:39"
+            },
+            {
+                "alert_name": "Session Management Response Identified",
+                "risk": "Informational",
+                "created_at": "2025-10-09 16:45:39"
+            },
+            {
+                "alert_name": "Session Management Response Identified",
+                "risk": "Informational",
+                "created_at": "2025-10-09 16:45:39"
+            },
+            {
+                "alert_name": "Session Management Response Identified",
+                "risk": "Informational",
+                "created_at": "2025-10-09 16:45:39"
+            },
+            {
+                "alert_name": "User Agent Fuzzer",
+                "risk": "Informational",
+                "created_at": "2025-10-09 16:45:39"
+            },
+            {
+                "alert_name": "User Agent Fuzzer",
+                "risk": "Informational",
+                "created_at": "2025-10-09 16:45:39"
+            },
+            {
+                "alert_name": "User Agent Fuzzer",
+                "risk": "Informational",
+                "created_at": "2025-10-09 16:45:39"
+            },
+            {
+                "alert_name": "User Agent Fuzzer",
+                "risk": "Informational",
+                "created_at": "2025-10-09 16:45:39"
+            },
+            {
+                "alert_name": "User Agent Fuzzer",
+                "risk": "Informational",
+                "created_at": "2025-10-09 16:45:39"
+            },
+            {
+                "alert_name": "User Agent Fuzzer",
+                "risk": "Informational",
+                "created_at": "2025-10-09 16:45:39"
+            },
+            {
+                "alert_name": "User Agent Fuzzer",
+                "risk": "Informational",
+                "created_at": "2025-10-09 16:45:39"
+            },
+            {
+                "alert_name": "User Agent Fuzzer",
+                "risk": "Informational",
+                "created_at": "2025-10-09 16:45:39"
+            },
+            {
+                "alert_name": "User Agent Fuzzer",
+                "risk": "Informational",
+                "created_at": "2025-10-09 16:45:39"
+            },
+            {
+                "alert_name": "User Agent Fuzzer",
+                "risk": "Informational",
+                "created_at": "2025-10-09 16:45:39"
+            },
+            {
+                "alert_name": "User Agent Fuzzer",
+                "risk": "Informational",
+                "created_at": "2025-10-09 16:45:39"
+            },
+            {
+                "alert_name": "User Agent Fuzzer",
+                "risk": "Informational",
+                "created_at": "2025-10-09 16:45:39"
+            },
+            {
+                "alert_name": "User Agent Fuzzer",
+                "risk": "Informational",
+                "created_at": "2025-10-09 16:45:39"
+            },
+            {
+                "alert_name": "User Agent Fuzzer",
+                "risk": "Informational",
+                "created_at": "2025-10-09 16:45:39"
+            },
+            {
+                "alert_name": "User Agent Fuzzer",
+                "risk": "Informational",
+                "created_at": "2025-10-09 16:45:39"
+            },
+            {
+                "alert_name": "User Agent Fuzzer",
+                "risk": "Informational",
+                "created_at": "2025-10-09 16:45:39"
+            },
+            {
+                "alert_name": "User Agent Fuzzer",
+                "risk": "Informational",
+                "created_at": "2025-10-09 16:45:39"
+            },
+            {
+                "alert_name": "User Agent Fuzzer",
+                "risk": "Informational",
+                "created_at": "2025-10-09 16:45:39"
+            },
+            {
+                "alert_name": "User Agent Fuzzer",
+                "risk": "Informational",
+                "created_at": "2025-10-09 16:45:39"
+            },
+            {
+                "alert_name": "User Agent Fuzzer",
+                "risk": "Informational",
+                "created_at": "2025-10-09 16:45:39"
+            },
+            {
+                "alert_name": "User Agent Fuzzer",
+                "risk": "Informational",
+                "created_at": "2025-10-09 16:45:39"
+            },
+            {
+                "alert_name": "User Agent Fuzzer",
+                "risk": "Informational",
+                "created_at": "2025-10-09 16:45:39"
+            },
+            {
+                "alert_name": "User Agent Fuzzer",
+                "risk": "Informational",
+                "created_at": "2025-10-09 16:45:39"
+            },
+            {
+                "alert_name": "User Agent Fuzzer",
+                "risk": "Informational",
+                "created_at": "2025-10-09 16:45:39"
+            },
+            {
+                "alert_name": "X-Content-Type-Options Header Missing",
+                "risk": "Low",
+                "created_at": "2025-10-09 16:45:39"
+            }
+        ]
+    },
+    {
         "scan_id": "a784164e-9959-4ee6-92e2-60df51c06e89",
         "target": "http://dvwa:80",
         "started_at": "2025-10-01T22:39:41.445601",

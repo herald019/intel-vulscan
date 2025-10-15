@@ -1,7 +1,7 @@
 import argparse
 import json
 import os
-from src import db, scanner, report_generator
+from src import db, scanner, report_generator, analytics  # 👈 added analytics import
 
 # Project root is the folder where cli.py lives
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -71,6 +71,11 @@ def main():
         action="store_true",
         help="Export all scans as JSON"
     )
+    parser.add_argument(
+        "--stats",
+        action="store_true",
+        help="Show analytics summary of all scans"  # 👈 new flag
+    )
 
     args = parser.parse_args()
 
@@ -100,6 +105,9 @@ def main():
 
     elif args.export_json:
         export_json()
+
+    elif args.stats:
+        analytics.generate_statistics()  # 👈 call analytics
 
     else:
         parser.print_help()
