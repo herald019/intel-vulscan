@@ -1,2 +1,6 @@
 python-owasp-zap-v2.4
 requests
+pandas 
+scikit-learn 
+lightgbm 
+joblib
